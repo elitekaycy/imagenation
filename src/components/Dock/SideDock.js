@@ -36,6 +36,8 @@ function SideDock({ open, handleToggle,  image, imageOptions }) {
   
 
     React.useEffect(() => {
+
+        //eslint-disable-next-line                                                                                                                            
           let mounted = true
            console.log(isDesktopOrlaptop, 'is desktop')
          PreviewImg()
