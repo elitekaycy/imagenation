@@ -4,7 +4,7 @@ import ImageChoiceComponent from '../ImageChoiceComponent/ImageChoiceComponent';
 import { defaultChoices } from './helpers/defaultChoices';
 
 function ImageBox() {
-
+     //eslint-disable-next-line
     const [imageState, setImageState] = useState(null)
     const [choices, setchoices] = useState(defaultChoices)
 

@@ -20,11 +20,12 @@ function ImageDraggable({ captureimagestateoptions }) {
          setView(!view)
         }
   
-    const files = acceptedFiles.map(file => (
-      <li key={file.path}>
-        {file.path} - {file.size} bytes
-      </li>
-    ));
+    
+  //  const files = acceptedFiles.map(file => (
+  //    <li key={file.path}>
+     //   {file.path} - {file.size} bytes
+     // </li>
+    //));
 
     function handleShowfile(){
         
@@ -37,6 +38,7 @@ function ImageDraggable({ captureimagestateoptions }) {
     }
 
     React.useEffect(() => {
+      //eslint-disable-next-line
          let mounted =  true
 
          RunImageDownloadables()
